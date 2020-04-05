@@ -1,0 +1,3 @@
+CREATE USER sampleuser;
+CREATE DATABASE sampledb;
+GRANT ALL PRIVILEGES ON DATABASE sampledb TO sampleuser;
