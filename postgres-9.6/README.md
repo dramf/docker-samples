@@ -4,10 +4,10 @@ SQL script can create databases, users and tables for an application.
 
 ### Using
 
-`init.sql` contains initial sql scripts.
-Dockerfile contains `POSTGRES_PASSWORD` to set a postgres password.
-Run `./build.sh` for build the image.
-Run `./run.sh` for launch the image.
+* `init.sql` contains initial sql scripts (CREATE TABLE).
+* `Dockerfile` sets `POSTGRES_USER`, `POSTGRES_PASSWORD` and `POSTGRES_DB` for access to database.
+* `start.sh` builds and runs the image.
+* `stop.sh` stops the container and removes the image.
 
 ### URLs
 [postgres. Docker Official Images](https://hub.docker.com/_/postgres/)
