@@ -1,0 +1,3 @@
+13 #RUN mkdir /server << not needed
+14 #RUN mkdir /server/database << not needed
+16 RUN mkdir -p /server/database << replaces lines 13 and 14 since the -p mkdir flag serves the same purpose.
